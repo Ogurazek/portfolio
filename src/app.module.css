@@ -1,0 +1,14 @@
+.bodyApp {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  background-color: RGB(17, 17, 17);
+}
+
+.bodyApp_container {
+  width: 70%;
+  height: 85%;
+  /* background-color: rgb(114, 34, 34); */
+}

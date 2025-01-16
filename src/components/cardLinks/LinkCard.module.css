@@ -1,0 +1,65 @@
+.containerLC {
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  place-content: center;
+}
+
+.containerLCSection {
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+
+.containerIcon {
+  width: 3rem;
+  min-width: 3rem;
+  height: 100%;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.432), 0 1px 3px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+.containerIcon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  border-top: 1px solid rgba(141, 141, 141, 0.212);
+  border-left: 1px solid rgba(105, 105, 105, 0.212);
+  border-radius: 10px 0 0 0;
+  box-sizing: border-box;
+}
+
+.containerText {
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  gap: 3px;
+}
+
+.containerText p,
+a {
+  text-align: start;
+  margin: 0;
+  font-size: 14px;
+}
+
+.containerText a {
+  font-size: 12px;
+  color: #fff;
+}
+
+.containerText p {
+  color: #9e9e9e;
+}

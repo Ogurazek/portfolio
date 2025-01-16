@@ -28,25 +28,25 @@ export default function SideBar() {
                         <LinkCards
                             title="Email"
                             description="eg378556@gmail.com"
-                            icon={<Mail color="#0097b2" />}
+                            icon={<Mail color="#6ee1f2" />}
                             link="mailto:eg378556@gmail.com"
                         />
                         <LinkCards
                             title="Linkedin"
                             description="Perez, Elías Leonel"
-                            icon={<Linkedin color="#0097b2" />}
+                            icon={<Linkedin color="#6ee1f2" />}
                             link="https://www.linkedin.com/in/eliasperez-"
                         />
                         <LinkCards
                             title="CV / Resumé"
                             description="Ver CV"
-                            icon={<FileUser color="#0097b2" />}
+                            icon={<FileUser color="#6ee1f2" />}
                             link="https://drive.google.com/file/d/1-zA_XON9SOBT4sSgVCnWR5tqafNV2aqg/view?usp=sharing"
                         />
                         <LinkCards
                             title="Ubicación"
                             description="Argentina, Chaco"
-                            icon={<MapPin color="#0097b2" />}
+                            icon={<MapPin color="#6ee1f2" />}
                             link=""
                         />
 

@@ -9,6 +9,6 @@
 
 .bodyApp_container {
   width: 70%;
-  height: 85%;
-  /* background-color: rgb(114, 34, 34); */
+  height: auto;
+  display: flex;
 }

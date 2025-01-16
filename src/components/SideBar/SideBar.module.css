@@ -7,6 +7,8 @@
   border-radius: 0.8rem;
   border: 2px solid rgb(32, 32, 32);
   overflow: hidden;
+  min-width: 15.168rem;
+  min-height: 34.563rem;
 }
 
 .sectionImgSB {

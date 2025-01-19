@@ -47,7 +47,7 @@ export default function SideBar() {
                             title="Ubicación"
                             description="Argentina, Chaco"
                             icon={<MapPin color="#6ee1f2" />}
-                            link=""
+                            link="https://www.google.com.ar/maps/place/Resistencia,+Chaco/@-27.5645803,-59.4043056,10z/data=!4m6!3m5!1s0x94450c62a6f5f70b:0xf03ac86511c2cd6d!8m2!3d-27.4518622!4d-58.9855547!16zL20vMDJ0Yjdr?hl=es&entry=ttu&g_ep=EgoyMDI1MDExNC4wIKXMDSoASAFQAw%3D%3D"
                         />
 
                     </section>

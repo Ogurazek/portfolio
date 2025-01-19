@@ -1,4 +1,5 @@
 import styles from './mainContent.module.css'
+import AboutMe from '../AboutMe/aboutme'
 
 export default function MainContent() {
     return (
@@ -6,11 +7,16 @@ export default function MainContent() {
             <main className={styles.containerMain}>
                 <header className={styles.header_MC_container}>
                     <nav className={styles.header_MC}>
-                        <p>Portfolio</p>
-                        <p>Portfolio</p>
-                        <p>Portfolio</p>
+                        <button>Sobre mí</button>
+                        <button>Proyectos</button>
+                        <button>Tecnologías</button>
                     </nav>
                 </header>
+                <article className={styles.containerAboutMeProyeTec}>
+                    <div className={styles.containerMainAboutMeProyeTec}>
+                        <AboutMe />
+                    </div>
+                </article>
             </main>
         </article>
     )

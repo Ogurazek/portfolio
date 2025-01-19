@@ -1,0 +1,38 @@
+.cardContainer {
+  width: 18.75rem;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/public/Captura\ de\ pantalla\ 2025-01-19\ 183430.png);
+  position: relative;
+}
+
+.containerSection {
+  padding: 3px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  width: 95%;
+  height: 3rem;
+  margin-top: auto;
+  background-color: #383838;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.h3pcolor {
+  margin-top: 10px;
+}
+
+.cardContainer:hover .containerSection {
+  height: 10rem;
+}

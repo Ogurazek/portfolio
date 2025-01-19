@@ -6,13 +6,6 @@
   background-color: #383838;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.37), 0 1px 3px rgba(0, 0, 0, 0.06);
-  transition: all 0.3s ease;
-}
-
-.containerCardAboutMe:hover {
-  transform: scale(1.02);
-  box-shadow: 0 4px 8px rgba(28, 113, 139, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .containerIcon {

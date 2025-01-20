@@ -15,3 +15,34 @@
   background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
   background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
 }
+
+body,
+.container {
+  --sb-track-color: #232e33;
+  --sb-thumb-color: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
+  --sb-size: 5px;
+}
+
+body::-webkit-scrollbar,
+.container::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track,
+.container::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb,
+.container::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body,
+  .container {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}

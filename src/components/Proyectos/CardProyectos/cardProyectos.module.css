@@ -8,7 +8,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(/public/Captura\ de\ pantalla\ 2025-01-19\ 183430.png);
   position: relative;
 }
 
@@ -27,12 +26,49 @@
   opacity: 1;
   overflow: hidden;
   transition: height 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.37), 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
-.h3pcolor {
-  margin-top: 10px;
+.containerTitle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
 }
 
 .cardContainer:hover .containerSection {
-  height: 10rem;
+  height: 12rem;
+}
+
+.containerTitleLeft {
+  width: 85%;
+  height: 3rem;
+  text-overflow: ellipsis;
+}
+.containerTitleLeft p {
+  margin: 0;
+  font-size: 12px;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  color: #9e9e9e;
+}
+.containerTitleRight {
+  width: 15%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.containerDescription {
+  width: 100%;
+  height: 7rem;
+  text-wrap: wrap;
+}
+.containerDescription p {
+  font-size: 13px;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  color: #9e9e9e;
 }

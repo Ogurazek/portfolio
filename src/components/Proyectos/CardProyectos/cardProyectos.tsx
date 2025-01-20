@@ -1,16 +1,35 @@
 import styles from './cardProyectos.module.css';
+import { Eye } from 'lucide-react';
 
-export default function CardProyectos() {
+
+type CardProyectosProps = {
+    tecnologias: string;
+    title: string;
+    description: string;
+    link: string;
+    img: string;
+}
+
+export default function CardProyectos({ tecnologias, title, description, link, img }: CardProyectosProps) {
     return (
         <>
-            <article className={styles.cardContainer}>
+            <article className={styles.cardContainer} style={{ backgroundImage: `url(${img})` }}>
                 <section className={styles.containerSection}>
-                    <h3 className={styles.h3pcolor}>Clon de YT Music <a className={styles.h3pcolor} href="">ver</a></h3>
-                    <p className={styles.h3pcolor}>holadkfjsdjfhsdjfhsdjifsdjfhdsjifhsdjfhsdifdhsifhjsd</p>
-                    <p>holadkfjsdjfhsdjfhsdjifsdjfhdsjifhsdjfhsdifdhsifhjsd</p>
-                    <a href="sdasd">puto</a>
+                    <div className={styles.containerTitle}>
+                        <div className={styles.containerTitleLeft}>
+                            <strong className={styles.h3pcolor}>{title}</strong>
+                            <p>{tecnologias}</p>
+                        </div>
+                        <div className={styles.containerTitleRight}>
+                            <a className={styles.h3pcolor} href={link} target='_blank'><Eye size={28} color="#6ee1f2" /></a>
+                        </div>
+                    </div>
+                    <section className={styles.containerDescription}>
+                        <p>{description}</p>
+                    </section>
+
                 </section>
-            </article>
+            </article >
         </>
     )
 }

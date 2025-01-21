@@ -1,6 +1,6 @@
 .bodyApp {
   width: 100vw;
-  height: 100vh;
+  height: 100vh; /* Mantén el diseño inicial para pantallas grandes */
   display: flex;
   place-items: center;
   justify-content: center;
@@ -11,5 +11,29 @@
   width: 70%;
   height: auto;
   display: flex;
-  min-width: 70%;
+  min-width: 59rem;
+  max-width: 59rem;
+}
+
+@media (max-width: 768px) {
+  .bodyApp {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bodyApp_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+    gap: 12px;
+    padding: 0 16px;
+  }
 }

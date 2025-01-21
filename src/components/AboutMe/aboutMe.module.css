@@ -26,7 +26,13 @@ p {
 .containerPasatiempo {
   width: 100%;
   height: 10rem;
-  gap: 1rem;
+  justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .containerPasatiempo {
+    gap: 8px;
+  }
 }

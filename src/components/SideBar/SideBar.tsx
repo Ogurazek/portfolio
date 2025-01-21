@@ -1,6 +1,6 @@
 import styles from "./SideBar.module.css"
 import LinkCards from "../cardLinks/LinkCard"
-import { Mail, Linkedin, FileUser, MapPin } from 'lucide-react';
+import { Mail, Linkedin, FileUser, Github } from 'lucide-react';
 
 export default function SideBar() {
 
@@ -44,17 +44,14 @@ export default function SideBar() {
                             link="https://drive.google.com/file/d/1-zA_XON9SOBT4sSgVCnWR5tqafNV2aqg/view?usp=sharing"
                         />
                         <LinkCards
-                            title="Ubicación"
-                            description="Argentina, Chaco"
-                            icon={<MapPin color="#6ee1f2" />}
-                            link="https://www.google.com.ar/maps/place/Resistencia,+Chaco/@-27.5645803,-59.4043056,10z/data=!4m6!3m5!1s0x94450c62a6f5f70b:0xf03ac86511c2cd6d!8m2!3d-27.4518622!4d-58.9855547!16zL20vMDJ0Yjdr?hl=es&entry=ttu&g_ep=EgoyMDI1MDExNC4wIKXMDSoASAFQAw%3D%3D"
+                            title="GitHub"
+                            description="Ogurazek"
+                            icon={<Github color="#6ee1f2" />}
+                            link="https://github.com/Ogurazek"
                         />
 
                     </section>
                 </section>
-
-
-
             </article>
         </>
     )

@@ -2,6 +2,7 @@ import styles from './mainContent.module.css'
 import AboutMe from '../AboutMe/aboutme'
 import Proyectos from '../Proyectos/proyectos'
 import ChangePageHook from '../Hooks/ChangePage/ChangePageHook'
+import Skills from '../Skills/skills'
 
 export default function MainContent() {
 
@@ -26,6 +27,7 @@ export default function MainContent() {
                     <div className={styles.containerMainAboutMeProyeTec}>
                         {stateAboutMe && <AboutMe />}
                         {stateProyectos && <Proyectos />}
+                        {stateSkills && <Skills />}
                     </div>
                 </article>
             </main>

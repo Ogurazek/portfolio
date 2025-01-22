@@ -1,5 +1,5 @@
 import styles from './cardProyectos.module.css';
-import { Eye } from 'lucide-react';
+import { Eye, Github } from 'lucide-react';
 
 
 type CardProyectosProps = {
@@ -7,10 +7,11 @@ type CardProyectosProps = {
     title: string;
     description: string;
     link: string;
+    linkGit: string;
     img: string;
 }
 
-export default function CardProyectos({ tecnologias, title, description, link, img }: CardProyectosProps) {
+export default function CardProyectos({ tecnologias, title, description, link, img, linkGit }: CardProyectosProps) {
     return (
         <>
             <article className={styles.cardContainer} style={{ backgroundImage: `url(${img})` }}>
@@ -21,6 +22,7 @@ export default function CardProyectos({ tecnologias, title, description, link, i
                             <p>{tecnologias}</p>
                         </div>
                         <div className={styles.containerTitleRight}>
+                            <a className={styles.h3pcolor} href={linkGit} target='_blank'><Github size={28} color="#6ee1f2" /></a>
                             <a className={styles.h3pcolor} href={link} target='_blank'><Eye size={28} color="#6ee1f2" /></a>
                         </div>
                     </div>

@@ -15,3 +15,10 @@
   gap: 32px;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .containerSkills {
+    justify-content: center;
+    display: flex;
+  }
+}

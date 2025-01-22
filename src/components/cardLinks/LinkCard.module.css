@@ -45,7 +45,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  gap: 3px;
+  gap: 2px;
 }
 
 .containerText p,

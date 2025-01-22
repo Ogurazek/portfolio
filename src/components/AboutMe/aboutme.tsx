@@ -19,10 +19,10 @@ export default function AboutMe() {
                 </p>
                 <h3>Mis Pasatiempos</h3>
                 <section className={styles.containerPasatiempo}>
-                    <CardAboutMe descripción={"Jugar videojuegos con amigos"} icon={<Gamepad2 size={32} color="#6ee1f2" />} />
-                    <CardAboutMe descripción={"Despejarme en el Gym"} icon={<Dumbbell size={32} color="#6ee1f2" />} />
-                    <CardAboutMe descripción={"Aprender cosas nuevas cada día"} icon={<Laptop size={32} color="#6ee1f2" />} />
-                    <CardAboutMe descripción={"Ver películas o series"} icon={<Popcorn size={32} color="#6ee1f2" />} />
+                    <CardAboutMe descripción={"Videojuegos"} icon={<Gamepad2 size={32} color="#6ee1f2" />} />
+                    <CardAboutMe descripción={"Gym"} icon={<Dumbbell size={32} color="#6ee1f2" />} />
+                    <CardAboutMe descripción={"Desarrollar nuevas habilidades"} icon={<Laptop size={32} color="#6ee1f2" />} />
+                    <CardAboutMe descripción={"Películas o Series"} icon={<Popcorn size={32} color="#6ee1f2" />} />
                 </section>
             </section>
         </>

@@ -43,7 +43,7 @@
 }
 
 .containerTitleLeft {
-  width: 85%;
+  width: 75%;
   height: 3rem;
   text-overflow: ellipsis;
 }
@@ -55,12 +55,13 @@
   color: #9e9e9e;
 }
 .containerTitleRight {
-  width: 15%;
+  width: 25%;
   height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 2px;
+  gap: 8px;
 }
 
 .containerDescription {

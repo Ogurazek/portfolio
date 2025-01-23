@@ -9,7 +9,7 @@ export default function SideBar() {
             <article className={styles.containerSB}>
                 <section className={styles.sectionImgSB}>
                     <div>
-                        <img src="/profileIMG.png" alt="" />
+                        <img src="/profileIMG.webp" alt="" />
                     </div>
                     <strong>Perez Elías Leonel</strong>
                 </section>
@@ -32,7 +32,7 @@ export default function SideBar() {
                             link="mailto:eg378556@gmail.com"
                         />
                         <LinkCards
-                            title="Linkedin"
+                            title="LinkedIn"
                             description="Perez, Elías Leonel"
                             icon={<Linkedin color="#6ee1f2" />}
                             link="https://www.linkedin.com/in/eliasperez-"

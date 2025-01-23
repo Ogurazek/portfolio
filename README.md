@@ -29,8 +29,8 @@ Puedes ver el Portfolio aquí ---> https://portfolioeliasperez.vercel.app
 
 ### Vista responsiva en dispositivos móviles
 
-![Vista responsiva](/VistaMobile.webp)
-![Vista Escritorio](/VistaPC.webp)
+![Vista Responsiva Mobile](/public//VistaMobile.webp)
+![Vista Escritorio](/public//VistaPC.webp)
 
 ## Autor
 

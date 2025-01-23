@@ -18,7 +18,7 @@ export default function Skills() {
                 <SkillsCard img='/github.svg' title='GitHub' />
                 <SkillsCard img='/vite.svg' title='Vite' />
                 <SkillsCard img='/bootstrap.svg' title='Bootstrap' />
-                <SkillsCard img='/book.svg' title='constante evolución' />
+                <SkillsCard img='/book.svg' title='Constante evolución' />
             </article>
         </>
     )

@@ -41,7 +41,7 @@ export default function SideBar() {
                             title="CV / Resumé"
                             description="Ver CV"
                             icon={<FileUser color="#6ee1f2" />}
-                            link="https://drive.google.com/file/d/1-zA_XON9SOBT4sSgVCnWR5tqafNV2aqg/view?usp=sharing"
+                            link="https://drive.google.com/file/d/1g2bAN9jMYGe4jVqC87Yc2Q-9aPQ7ak9n/view"
                         />
                         <LinkCards
                             title="GitHub"

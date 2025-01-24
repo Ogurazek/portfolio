@@ -38,10 +38,10 @@ const proyectos = [
         key: 2,
         title: 'Pasarela de Pago 💳',
         tecnologias: 'React | TypeScript | HTML | Docker...',
-        link: 'https://podcast-player-ytmusic.vercel.app',
+        link: 'https://pasarelapago.vercel.app',
         description: 'Desarrollé una pasarela de pago que permite ingresar y verificar datos de tarjetas de crédito, número de tarjeta y código de seguridad. También, permite ver el precio de un objeto en Bitcoin a través de una API',
         img: '/ProyectoPasarelaPago.webp',
-        linkGit: 'sd'
+        linkGit: 'https://github.com/Ogurazek/PasarelaDePago'
     },
     {
         key: 3,

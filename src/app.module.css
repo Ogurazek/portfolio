@@ -1,6 +1,6 @@
 .bodyApp {
   width: 100vw;
-  height: 100vh; /* Mantén el diseño inicial para pantallas grandes */
+  height: auto;
   display: flex;
   place-items: center;
   justify-content: center;
